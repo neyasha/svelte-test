@@ -1,4 +1,3 @@
-git commit -m "add main page and nav"
 <svelte:head>
 <title>Палагина Настя</title>
 </svelte:head>
@@ -17,8 +16,7 @@ git commit -m "add main page and nav"
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto aut, cupiditate dolores
  ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
                 </h2>
-                <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-                <div style="color:black" class="scroll-button animate-scroll" tabindex="0">
+                <div style="color:black" class="scroll-button animate-scroll" tabindex="O">
                     <a href="/about">Click Here</a>
                     <div class="arrow">→</div>
                 </div>
@@ -28,6 +26,7 @@ git commit -m "add main page and nav"
 </div>
 
 <div class="background-div"></div>
+
 <style>
     .info {
         text-align: center;
@@ -45,7 +44,7 @@ git commit -m "add main page and nav"
 
     .container {
         max-width: 1400px;
-        margin: 50px 0 0 2.5rem;
+        margin: 190px 0 0 2.5rem;
     }
 
     .info h1 {
@@ -71,10 +70,10 @@ git commit -m "add main page and nav"
     }
     
     .background-div {
-        background-color: red;
+        background-color: #ecebe8;
         width: 100%;
         height: 56vh;
-        margin: -160px auto;
+        margin: -205px auto;
     }
     .info .info-text{
         position: relative;
