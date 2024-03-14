@@ -20,12 +20,10 @@
 </div>
 
 <script>
-
-    import { routes } from "./routes.js";
+import { routes } from "./routes.js";   
+</script>
     
-    </script>
-    
-    <style>
+<style>
     
     .container {
         margin: 50px auto;
