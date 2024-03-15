@@ -3,7 +3,10 @@
         <a href="/" class ="nav-logo" title="Back to Homepages">Настя Палагина</a>
         <div class="nav-links">
             {#each nav as link}
-            <a href={link.href} class="link">{link.title}</a>
+                {#if link.isShow}
+                    <a href={link.href} class="link">{link.title}</a>
+                    <span>&nbsp;&nbsp;&nbsp;</span>
+                {/if}
             {/each}
         </div>
     </div>
